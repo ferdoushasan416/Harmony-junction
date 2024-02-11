@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@600;700&family=Commissioner:wght@400;500&display=swap');
+
+:root {
+  --primary: #2E4C39;
+  --black: #000000;
+  --white-color: #fff;
+}
+
+/*
+===============================
+Global CSS START
+===============================
+*/
+
+body {
+  color: var(--black);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: 'Commissioner', sans-serif;
+}
+
+html,
+body {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+img, svg {
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+  transition: 0.3s all ease;
+}
+
+a,
+.button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+  color: var(--text-white);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: 'Brygada 1918', serif;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+h4,
+h5 {
+  font-weight: 600;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p:last-of-type {
+	margin: 0;
+}
+
+/*
+==========================
+Main Btn Css Start
+==========================
+*/
+
+.site-btn {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 12px 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  transition: 0.3s all ease;
+  border-radius: 3px;
+  color: #fff;
+  background-color: var(--primary);
+}
+
+.site-btn:hover {
+  background-color: #FBA40A;
+}
+
+/*
+=========================
+Main Btn Css End 
+=========================
+*/
+
+#page {
+  overflow: hidden;
+}
+
+/*
+============================
+Global CSS END
+============================
+*/
+
+/*
+============================
+Header Css Start
+============================
+*/
+
+.site-header {
+  padding: 10px 0;
+  position: absolute;
+	left: 0;
+	top: 0;
+  width: 100%;
+	z-index: 99;
+}
+
+.topbar_header {
+	border-bottom: 1px solid #fff;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.topbar-cta span {
+	color: var(--primary);
+	margin-left: 20px;
+	font-size: 16px;
+}
+
+.topbar-cta span a {
+  color: var(--primary);
+	padding: 12px 30px;
+	border-radius: 3px;
+  display: inline-block;
+	background-color: #72AE87;
+	text-transform: uppercase;
+}
+
+.topbar-cta span a > img {
+  padding: 0 4px;
+}
+
+.main-header {
+  padding: 20px 0;
+}
+
+.main-menu {
+  text-align: right !important;
+}
+
+.main-menu ul li {
+  display: inline-block;
+}
+
+.main-menu ul li a {
+  color: var(--primary);
+  font-size: 16px;
+  font-weight: 400;
+  display: block;
+  margin-left: 45px;
+  transition: 0.3s all ease;
+}
+
+/*
+============================
+Header Css End
+============================
+*/
+
+/*
+============================
+Hero Css Start
+============================
+*/
+
+.hero-section {
+  height: 1000px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-subtitle {
+  color: #72AE87;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 30px;
+}
+
+.hero-content h2 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 66px;
+}
+
+.hero-btns {
+	margin-top: 18px;
+}
+
+.hero-btns a:not(:last-of-type) {
+  color: #000000;
+  background-color: #FBA40A;
+  margin-right: 15px;
+}
+
+/*
+============================
+Hero Css End
+============================
+*/
+
+
+
+
+
+
+/*
+============================
+Footer Css Start
+============================
+*/
+
+
+
+/*
+============================
+Footer Css End
+============================
+*/
+
+
+
+
+
+
+
+/*
+============================
+Responsive Css Start
+============================
+*/
+
+@media screen and (min-width: 1360px) {
+
+ .container{
+    max-width: 1170px;
+ }
+ 
+ }
+ /* ----- Laptop device screen ----- */
+ @media only screen and (max-width:1199px) {
+ 
+ }
+ /* ----- Tablet device screen ----- */
+ @media only screen and (max-width:991px) {
+ 
+ }
+ /* ----- Mobile device screen ----- */
+ @media only screen and (max-width:767px) {
+ 
+ }
+ 
+ /*
+ ============================
+ Responsive Css End
+ ============================
+ */
