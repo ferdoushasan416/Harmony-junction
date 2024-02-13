@@ -163,7 +163,7 @@ Header Css Start
 
 .topbar-cta span a {
   color: var(--primary);
-	padding: 12px 30px;
+	padding: 10px 30px;
 	border-radius: 3px;
   display: inline-block;
 	background-color: #72AE87;
@@ -267,7 +267,7 @@ Mobile Menu Css
   text-align: left;
 }  
 .close-btn {
-  width: 50px;
+  width: 40px;
   padding: 10px;
   cursor: pointer;
   margin-left: auto;
@@ -342,18 +342,22 @@ Hero Css Start
    br {
     display: none;
    }
+
    .hero-subtitle {
     font-size: 22px;
   }
+
    .hero-content h2 {
     font-size: 55px;
     line-height: 60px;
   }
+
   }
   @media only screen and (max-width:767px) {
     .hero-subtitle {
       font-size: 18px;
     }
+
     .hero-content h2 {
       font-size: 40px;
       line-height: 45px;
@@ -363,6 +367,7 @@ Hero Css Start
       margin-right: 0;
       margin-bottom: 10px;
     }
+
     .site-btn {
       font-size: 15px;
     }
@@ -395,7 +400,7 @@ Unique Approach Css Start
   font-style: italic;
 }
 
-.unique-approach-section .section-title {
+.section-title {
 	margin-bottom: 50px;
 }
 
@@ -412,12 +417,19 @@ Unique Approach Css Start
   margin-bottom: 18px;
 }
 
-.unique-approach-content h4 {
+.unique-approach-boxes .boxes-title {
   color: var(--primary);
   font-size: 24px;
   line-height: 30px;
   max-width: 212px;
   margin: 0 auto;
+}
+
+.boxes-title {
+  color: var(--primary);
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 15px;
 }
 
 .unique-approach-content p {
@@ -429,7 +441,23 @@ Unique Approach Css Start
 .unique-approach-content .site-btn {
   margin-top: 50px;
 }
+@media only screen and (max-width:991px) {
+.section-title h2 {
+  font-size: 45px;
+}
 
+}
+@media only screen and (max-width:767px) {
+.unique-approach-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section-title h2 {
+	font-size: 35px;
+}
+
+}
 /*
 ============================
 Unique Approach Css End
@@ -480,7 +508,20 @@ Treatment Specialist Css Start
 .contact-info a img {
   margin-right: 5px;
 }
+@media only screen and (max-width:991px) {
+.treatment-specialist-content {
+  font-size: 42px;
+}
 
+}
+@media only screen and (max-width:767px) {
+.treatment-specialist-section::before {
+  position: initial;
+  }
+  .treatment-specialist-content {
+    font-size: 32px;
+  }
+}
 /*
 ================================
 Treatment Specialist Css End
@@ -561,11 +602,78 @@ Our Philosophy Css
 	margin-top: 20px;
 }
 
+@media only screen and (max-width:991px) {
+.philosophy-box-content h2 {
+  font-size: 38px;
+  line-height: 50px;
+}
+
+} 
+  
 /*
 ===========================
 Our Philosophy Css End
 ===========================
 */
+
+/*
+===========================
+Our Service Css Start
+===========================
+*/
+
+.our-service-section {
+	padding-top: 100px;
+	padding-bottom: 50px;
+  background-color: #E7F0E4;
+}
+
+.our-service-section .section-title {
+	margin-bottom: 70px;
+}
+
+.our-service-boxes {
+	margin-bottom: 70px;
+}
+
+.service-icon {
+	margin-bottom: 20px;
+}
+
+.list-content li {
+	font-size: 16px;
+	position: relative;
+	padding-left: 32px;
+	line-height: 22px;
+	margin-bottom: 18px;
+}
+
+.list-content li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 24px;
+  height: 24px;
+  background-image: url(assets/images/check.svg);
+  background-repeat: no-repeat;
+}
+
+.our-service-boxes .site-btn {
+	margin-top: 20px;
+}
+@media only screen and (max-width:767px) {
+.our-service-boxes {
+  margin-bottom: 50px;
+}
+}
+/*
+===========================
+Our Service Css End
+===========================
+*/
+
+
 
 /*
 ============================
