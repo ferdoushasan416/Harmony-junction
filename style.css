@@ -16,7 +16,7 @@ body {
   color: var(--black);
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.4;
+  line-height: 28px;
   font-family: 'Commissioner', sans-serif;
 }
 
@@ -302,7 +302,7 @@ Hero Css Start
   content: "";
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -1px;
   width: 100%;
   height: 100%;
   background-image: url(assets/images/banner-greadient-shape.png);
@@ -374,10 +374,198 @@ Hero Css End
 ============================
 */
 
+/*
+============================
+Unique Approach Css Start
+============================
+*/
+
+.unique-approach-section {
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	padding-top: 100px;
+	padding-bottom: 250px;
+}
+
+.section-title h2 {
+  font-size: 48px;
+  color: var(--primary);
+  font-weight: 700;
+  font-style: italic;
+}
+
+.unique-approach-section .section-title {
+	margin-bottom: 50px;
+}
+
+.unique-approach-boxes {
+	display: block;
+	background-color: #E7F0E4;
+	text-align: center;
+	padding: 30px;
+	border-radius: 24px;
+  margin-bottom: 30px;
+}
+
+.unique-approach-icon {
+  margin-bottom: 18px;
+}
+
+.unique-approach-content h4 {
+  color: var(--primary);
+  font-size: 24px;
+  line-height: 30px;
+  max-width: 212px;
+  margin: 0 auto;
+}
+
+.unique-approach-content p {
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 10px;
+}
+
+.unique-approach-content .site-btn {
+  margin-top: 50px;
+}
+
+/*
+============================
+Unique Approach Css End
+============================
+*/
 
 
+/*
+================================
+Treatment Specialist Css Start
+================================
+*/
 
+.treatment-specialist-section {
+  background-color: #2E4C39;
+  padding: 50px 0;
+  position: relative;
+}
 
+.treatment-specialist-section:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -240px;
+  width: 100%;
+  height: 300px;
+  background-image: url(assets/images/green-shape.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.treatment-specialist-content {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.contact-info a {
+  color: #2E4C39;
+  font-size: 16px;
+  padding: 12px 15px;
+  display: inline-block;
+  border-radius: 3px;
+  background-color: #FBA40A;
+}
+
+.contact-info a img {
+  margin-right: 5px;
+}
+
+/*
+================================
+Treatment Specialist Css End
+================================
+*/
+
+/*
+===========================
+Our Philosophy Css
+===========================
+*/
+
+.our-philosophy-items {
+	position: relative;
+	z-index: 2;
+	padding: 80px 0;
+}
+
+.sec-absolute-bg {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.sec-absolute-bg:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 140px;
+  background-image: url(assets/images/greadient-shape-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.absolute-bg-2:before {
+  top: 0;
+  background-image: url(assets/images/greadient-shape-3.png);
+}
+
+.absolute-bg-left .sec-absolute-bg {
+  right: auto;
+  left: 0;
+}
+
+.sec-absolute-bg {
+   background-image: url(assets/images/ab-bg-1.jpg);
+
+ }
+
+ .absolute-bg-2 {
+  background-image: url(assets/images/ab-bg-2.jpg);
+ } 
+ 
+ .absolute-bg-left .philosophy-box-content {
+  padding-left: 40px;
+  margin-right: 0;
+}
+
+ .philosophy-box-content {
+  margin-right: 40px;
+}
+
+ .philosophy-box-content h2 {
+  color: var(--primary);
+  font-size: 48px;
+  font-style: italic;
+  line-height: 54px;
+}
+
+ .philosophy-box-content .site-btn {
+	margin-top: 20px;
+}
+
+/*
+===========================
+Our Philosophy Css End
+===========================
+*/
 
 /*
 ============================
