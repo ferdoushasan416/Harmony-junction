@@ -673,6 +673,49 @@ Our Service Css End
 ===========================
 */
 
+/*
+===========================
+Brand Logo Css Start
+===========================
+*/
+
+.brand-logo-section {
+	margin-bottom: 100px;
+}
+
+.section-logo {
+  margin-top: -25px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.logo-inner {
+  align-items: center;
+  justify-content: space-between !important;
+  column-gap: 40px;
+  margin: 0 25px;
+}
+
+.logo-inner li {
+  position: relative;
+}
+
+.logo-inner li:not(:last-child)::after {
+	content: "";
+	position: absolute;
+	right: -70px;
+	top: 50%;
+	width: 1px;
+	height: 120px;
+	background-color: #FBA40A;
+	transform: translateY(-50%);
+} 
+/*
+===========================
+Brand Logo Css End
+===========================
+*/
+
 
 
 /*
